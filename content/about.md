@@ -28,5 +28,5 @@ C / 嵌入式开发 · STM32 / ESP32 · 电机控制 · PCB 设计与手焊调�
 ## 联系我
 
 - GitHub：[github.com/Liamyio](https://github.com/Liamyio)
-- 邮箱：2419518022@qq.com
+- 邮箱：liamgugou@gmail.com
 - 求职意向：机器人嵌入式 / 电机控制方向实习，意向城市杭州 / 上海 / 宁波（现居成都）
