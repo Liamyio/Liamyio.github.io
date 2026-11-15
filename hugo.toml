@@ -1,0 +1,86 @@
+baseURL = "https://liamyio.github.io/"
+languageCode = "zh-cn"
+defaultContentLanguage = "zh"
+title = "Liam 的嵌入式笔记"
+theme = "PaperMod"
+
+[params]
+env = "production"
+title = "Liam 的嵌入式笔记"
+description = "机械在读，奔向机器人嵌入式：底层驱动、电机控制与视觉的学习和项目记录"
+author = "Liam（连家维）"
+ShowReadingTime = true
+ShowShareButtons = false
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowToc = true
+TocOpen = false
+defaultTheme = "auto"
+disableThemeToggle = false
+
+[params.homeInfoParams]
+Title = "你好，我是 Liam 👋"
+Content = """
+成都大学机械设计制造及其自动化在读，目标是机器人嵌入式工程师。
+这里记录我在底层驱动、电机控制和机器视觉上的学习笔记与项目复盘：智能车备赛、自己画板手焊的蓝牙音响、毕业设计……
+写下来是为了想清楚，也是给面试官看的第二份简历。
+"""
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/Liamyio"
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto:2419518022@qq.com"
+
+[[params.socialIcons]]
+name = "rss"
+url = "index.xml"
+
+[menu]
+[[menu.main]]
+identifier = "home"
+name = "首页"
+url = "/"
+weight = 10
+[[menu.main]]
+identifier = "archives"
+name = "归档"
+url = "/archives/"
+weight = 20
+[[menu.main]]
+identifier = "categories"
+name = "分类"
+url = "/categories/"
+weight = 30
+[[menu.main]]
+identifier = "tags"
+name = "标签"
+url = "/tags/"
+weight = 40
+[[menu.main]]
+identifier = "search"
+name = "搜索"
+url = "/search/"
+weight = 50
+[[menu.main]]
+identifier = "about"
+name = "关于"
+url = "/about/"
+weight = 60
+
+# PaperMod 搜索功能需要 JSON 输出
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[pagination]
+pagerSize = 10
+
+[markup]
+[markup.highlight]
+noClasses = false
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
